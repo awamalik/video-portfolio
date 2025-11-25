@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wahab – Video Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: #0f0f0f;
+      color: #fff;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 40px 0 20px;
+      font-size: 3rem;
+      font-weight: 700;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      padding: 40px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .tile {
+      background: #1b1b1b;
+      border-radius: 12px;
+      padding: 20px;
+      transition: 0.3s ease;
+      cursor: pointer;
+    }
+
+    .tile:hover {
+      transform: translateY(-5px);
+      background: #272727;
+    }
+
+    .thumb {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 12px;
+    }
+
+    .label {
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <h1>Abdul Wahab Anwar</h1>
+
+  <div class="grid">
+    <a class="tile" href="#" target="_blank">
+      <img src="thumb1.gif" class="thumb" />
+      <div class="label">UX Pilot</div>
+    </a>
+
+    <a class="tile" href="#" target="_blank">
+      <img src="thumb2.gif" class="thumb" />
+      <div class="label">Project 2</div>
+    </a>
+
+    <a class="tile" href="#" target="_blank">
+      <img src="thumb3.gif" class="thumb" />
+      <div class="label">Project 3</div>
+    </a>
+  </div>
+</body>
+</html>
